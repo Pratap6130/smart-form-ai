@@ -1,36 +1,52 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Smart Form AI
 
-## Getting Started
+Smart Form AI is an AI-powered form builder that lets you create and deploy smart, customizable forms within minutes. It not only simplifies form creation but also provides detailed analytics and real-time response tracking to help you make better data-driven decisions.
 
-First, run the development server:
+## Features
+
+* **AI-Powered Form Generation**: Build smart and dynamic forms using AI suggestions.
+* **Quick Deployment**: Create and deploy forms in minutes.
+* **Smart Fields**: Adaptive questions and logic for improved user experience.
+* **Detailed Analytics**: Get insights into responses, engagement, and trends.
+* **Real-Time Responses**: View and analyse responses as they come in.
+* **Customizable UI**: Tailor the look and feel of your forms to match your brand.
+
+## Tech Stack
+
+* **Frontend**: Next.js (React)
+* **Styling**: Tailwind CSS, DaisyUI
+* **Auth**: Clerk
+* **Database**: Neon (PostgreSQL) with Drizzle ORM
+* **AI & Charts**: Google Generative AI, Chart.js
+* **Deployment**: Vercel
+
+## Installation
 
 ```bash
+git clone https://github.com/Pratap6130/smart-form-ai.git
+cd smart-form-ai
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Usage
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+* Visit the deployed URL: \[Your Deployment Link]
+* Create an account or log in.
+* Generate a form using AI.
+* Share your form and analyse responses.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Roadmap
 
-## Learn More
+* More analytics and dashboards
+* Integrations (Google Sheets, Slack, etc.)
+* Enhanced AI suggestions
+* Multi-language support
 
-To learn more about Next.js, take a look at the following resources:
+## Contributing
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+* Contributions are welcome! Fork the repo and submit a pull request. For major changes, open an issue first.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Author
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+* Created by [Pratap Singh](https://github.com/Pratap6130).
